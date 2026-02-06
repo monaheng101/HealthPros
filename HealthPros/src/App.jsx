@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='bg-gray-600'>
+    <div className='text-blue-500'>
       Testing Tailwind Css
     </div>
   )
