@@ -11,11 +11,12 @@ const Header = () => {
             Book Appointment <br /> With Trusted Doctors
           </p>
           <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
-            <img src={assets.group_profiles} alt="" />
-            <p>Simply browse through our extensive list of doctors, <br /> schedule an appointment without any problem.  </p>
+            <img className='w-28' src={assets.group_profiles} alt="" />
+            <p>Simply browse through our extensive list of doctors, <br className='hidden sm:block' /> schedule an appointment without any problem.  </p>
           </div>
-          <a href="">
-            Book Appointment <img src={assets.arrow_icon} alt="" />
+          <a className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'
+          href="">
+            Book Appointment <img className='w-3' src={assets.arrow_icon} alt="" />
           </a>
         </div>
 
